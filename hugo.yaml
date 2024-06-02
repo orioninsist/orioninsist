@@ -1,0 +1,246 @@
+enableRobotsTXT: true
+baseURL : "https://orioninsist.com/"
+languageCode : en-us
+title : "orioninsist"
+pageinate: 6
+enableInlineShortcodes: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+minify:
+    disableXML: true
+    # minifyOutput: true
+googleAnalytics: G-N4659BR2H4
+
+languages:
+    en:
+      languageName: "English"
+      weight: 1
+      #taxonomies:
+        #tag: tags
+        #blog: blog
+        #search: search
+
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    #- identifier: project
+      #name: Project
+      #url: /project
+      #weight: 24
+    #- identifier: news
+      #name: News
+      #url: /news
+      #weight: 25
+    #- identifier: projects
+     # name: Projects
+     # url: /projects/
+    #  weight: 30
+    #- identifier: podcast
+    #  name: Podcast
+    #  url: /podcast
+    #  weight: 40
+    #- identifier: stories
+    #  name: Stories
+    #  url: /stories
+    #  weight: 50
+    #- identifier: artwork
+    #  name: Artwork
+    #  url: /artwork
+    #  weight: 60
+    #- identifier: videos
+    #  name: Videos
+    #  url: /videos
+    #  weight: 70
+    #- identifier: pictures
+    #  name: Pictures
+    #  url: /pictures
+    #  weight: 80
+    #- identifier: presentation
+    #  name: Presentation
+    #  url: /presentation
+    #  weight: 90
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 160
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 100
+    - identifier: about
+      name: About
+      url: /about
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 40    
+    #- identifier: resume
+    #  name: Resume
+    #  url: /resume
+    #  weight: 110
+    #- identifier: media
+    #  name: Media
+    #  url: /media
+    #  weight: 120
+    #- identifier: news
+     # name: News
+     # url: /news
+     # weight: 130
+   # - identifier: roadmap
+    #  name: Roadmap
+    #  url: /roadmap
+    #  weight: 140
+   
+
+params:
+  ogTitle: "orioninsist"
+  ogDescription: "Hi,I’m Murat Kurkoglu, the founder of orioninsist.I’m a computer engineer and hold a degree in economics."
+  ogImage: "/home/murat-kurkoglu.webp"
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  comments: true
+  DateFormat: "January 2, 2006"
+  showToc: true
+  Description: "Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+  metaDescription: "Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+  author: orioninsist
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+  googleAnalytics: ["partials/google_analytics.html"]
+  favicon: "/orioninsist-16-16.png"
+  sitemap:
+    changeFreq: "always"
+    filename: "sitemap.xml"
+    priority: 0.9
+
+
+   
+
+  
+  # for enchanced SEO
+  env: production
+
+
+
+   Home Page
+  profileMode:
+    enabled: true
+    title: "Murat Kurkoglu"
+    subtitle: "<h2>Hi,I'm Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
+    imageUrl: "/home/murat-kurkoglu.webp"
+    imageWidth: 220
+    imageHeight: 220
+
+    buttons:
+     - name: Blog
+       url: "/blog"
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:muratkurkoglu@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/murat-kurkoglu/"
+    - name: "github"
+      url: "https://github.com/orioninsist"
+    - name: "youtube"
+      url: "https://www.youtube.com/@orioninsist-official/"
+    - name: "cv"
+      url: "https://www.youtube.com/@orioninsist-official/"
+    - name: "buymeacoffee"
+      url: "https://www.buymeacoffee.com/orioninsist/"
+    - name: "facebook"
+      url: "https://www.facebook.com/insistorion"
+    - name: "gitlab"
+      url: "https://gitlab.com/orioninsist"
+    - name: "instagram"
+      url: "https://www.instagram.com/insistorion/"
+    - name: "kaggle"
+      url: "https://www.kaggle.com/orioninsist"
+    - name: "kofi"
+      url: "https://ko-fi.com/orioninsist"
+    - name: "librapay"
+      url: "https://en.liberapay.com/orioninsist/"
+    - name: "medium"
+      url: "https://orioninsist.dev/"
+    - name: "reddit"
+      url: "https://www.reddit.com/user/insistorion"
+    - name: "stackoverflow"
+      url: "https://stackoverflow.com/users/14691175/orioninsist"
+    - name: "twitch"
+      url: "https://www.twitch.tv/orioninsist"
+    - name: "twitter"
+      url: "https://twitter.com/InsistOrion"
+    - name: "rss"
+      url: "https://orioninsist.org/index.xml"
+   
+      
+       
+   
+
+ 
+
+ 
+
+  
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+outputFormats:
+  RSS:
+    name: RSS
+    mediaType: application/rss+xml
+    baseName: index
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+        noClasses: false    
+
+
+privacy:
+  drafts: false
+  future: false
+  googleAnalyticsAnonymizeIP: true
+
+
+privacyPolicy: "/privacy-policy.html"
+
+
