@@ -94,9 +94,9 @@ menu:
       name: News
       url: /news
       weight: 40
-    - identifier: roadmap
-      name: roadmap
-      url: /roadmap
+    - identifier: daily
+      name: Daily
+      url: /daily
       weight: 50
     #- identifier: resume
     #  name: Resume
