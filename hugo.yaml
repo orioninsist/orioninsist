@@ -81,11 +81,11 @@ menu:
     - identifier: about
       name: About
       url: /about
-      weight: 50
+      weight: 60
     - identifier: contact
       name: Contact
       url: /contact
-      weight: 60
+      weight: 70
     - identifier: project
       name: Project
       url: /project
@@ -94,6 +94,10 @@ menu:
       name: News
       url: /news
       weight: 40
+    - identifier: roadmap
+      name: roadmap
+      url: /roadmap
+      weight: 50
     #- identifier: resume
     #  name: Resume
     #  url: /resume
