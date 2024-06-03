@@ -1,7 +1,7 @@
 ---
 title = 'Orioninsist Project List'
 date = 2024-06-03T13:23:04+03:00
-draft = false
+draft : false
 author: "murat"
 description: "All project list by orioninsist"
 keywords: ["projects"]
