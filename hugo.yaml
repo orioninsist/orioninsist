@@ -12,7 +12,7 @@ pygmentsUseClasses: true
 minify:
     disableXML: true
     # minifyOutput: true
-googleAnalytics: G-N4659BR2H4
+googleAnalytics: G-8QYNWQGT4B
 
 languages:
     en:
