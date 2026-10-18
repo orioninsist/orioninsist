@@ -114,3 +114,12 @@ html,body{overflow-x:clip;overflow-y:visible}
 .project-visual{text-decoration:none;color:inherit;cursor:pointer}
 .project-visual:focus-visible{outline:3px solid #000;outline-offset:5px}
 .project-visual:hover .visual-word{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:8px}
+
+/* Compact creator signature above the legal footer; black and white styling. */
+.profile-signature{display:flex;align-items:center;gap:22px;padding:35px 0;border-top:1px solid #000}
+.profile-signature img{width:88px;height:88px;object-fit:cover;border-radius:50%;filter:grayscale(100%);border:1px solid #000}
+.profile-signature>div{display:flex;flex-direction:column;gap:6px}
+.profile-signature-label{font-size:10px;letter-spacing:.12em;font-weight:700}
+.profile-signature strong{font-size:21px;letter-spacing:-.035em}
+.profile-signature>div>span:last-child{font-size:13px}
+@media(max-width:550px){.profile-signature{gap:16px}.profile-signature img{width:72px;height:72px}.profile-signature strong{font-size:18px}}
