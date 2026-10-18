@@ -2,6 +2,18 @@
 <html lang="{{ site.Language.Locale | default "en" }}">
 <head>
   <meta charset="utf-8">
+  {{ with site.Params.googleAnalyticsID }}
+  {{/* Only load GA4 when a valid Measurement ID is configured. */}}
+  {{ if hasPrefix . "G-" }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ . }}');
+  </script>
+  {{ end }}
+  {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="{{ site.Params.description }}">
