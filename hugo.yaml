@@ -1,16 +1,15 @@
 baseURL: "https://orioninsist.com/"
 languageCode: en-us
-title: "orioninsist — Independent Engineering"
+title: "orioninsist — Practical. Simple. Useful."
 enableRobotsTXT: true
 disableKinds:
   - taxonomy
   - term
   - RSS
-  - sitemap
   - section
   - 404
 outputs:
   home:
     - HTML
 params:
-  description: "Cybersecurity, Linux, software engineering and practical automation. Independent projects by orioninsist."
+  description: "orioninsist creates practical digital content and projects across productivity, automation, tips, and time. Follow the sun\u0027s light."
