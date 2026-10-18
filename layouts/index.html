@@ -44,7 +44,7 @@
         {{ if ne .Params.showProject false }}
           {{ $variant := .Params.layout | default "feature" }}
           <article class="project project--{{ $variant }}" aria-labelledby="project-{{ .File.UniqueID }}">
-            <div class="project-number">{{ printf "%02d" .Weight }} <span>— PROJECT</span></div>
+            <div class="project-number"><span>PROJECT</span></div>
             <div class="project-content">
               <div class="project-detail">
                 <p class="project-category">{{ .Params.category | default "INDEPENDENT PROJECT" }}</p>
