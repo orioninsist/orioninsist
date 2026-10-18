@@ -24,3 +24,6 @@ jobs:
           test -s /tmp/orioninsist-preview/index.html
           test "$(find /tmp/orioninsist-preview -name '*.html' | wc -l)" -eq 1
           grep -q 'SOC Analyst Journey' /tmp/orioninsist-preview/index.html
+          test -s /tmp/orioninsist-preview/sitemap.xml
+          test -s /tmp/orioninsist-preview/robots.txt
+          grep -q 'https://orioninsist.com/sitemap.xml' /tmp/orioninsist-preview/robots.txt

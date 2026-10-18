@@ -5,12 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="{{ site.Params.description }}">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ site.Title }}">
   <meta property="og:description" content="{{ site.Params.description }}">
   <meta property="og:url" content="{{ site.BaseURL }}">
+  <meta property="og:site_name" content="orioninsist">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ site.Title }}">
+  <meta name="twitter:description" content="{{ site.Params.description }}">
   <link rel="canonical" href="{{ site.BaseURL }}">
   <title>{{ site.Title }}</title>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"orioninsist","url":"https://orioninsist.com/","description":{{ site.Params.description | jsonify | safeJS }},"sameAs":["https://github.com/orioninsist","https://www.linkedin.com/in/murat-kurkoglu/","https://medium.com/@orioninsist","https://www.youtube.com/@lilywithmilo","https://www.youtube.com/@krizimgeldi","https://www.youtube.com/@lukas_und_mia"]}</script>
   {{ $css := resources.Get "css/landing.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 </head>
