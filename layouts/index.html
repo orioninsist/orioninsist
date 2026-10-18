@@ -1,18 +1,18 @@
 {{ define "main" }}
 <main id="content">
   <header class="hero" aria-labelledby="hero-title">
-    <div class="topline"><span class="brand">ORIONINSIST<span class="brand-dot">.</span></span><span class="topline-side">INDEPENDENT ENGINEERING / EST. ONLINE</span></div>
+    <div class="topline"><span class="brand">orioninsist</span><span class="topline-side">INDEPENDENT ENGINEERING</span></div>
     <div class="hero-inner">
       <p class="kicker"><span class="asterisk" aria-hidden="true">✳</span> Cybersecurity · Linux · Software Engineering</p>
-      <h1 id="hero-title">Ideas made<br><em>practical.</em></h1>
+      <h1 id="hero-title">Building<br><em>what matters.</em></h1>
       <div class="hero-bottom"><p>Building, testing, and documenting useful technology. Thoughtful projects at the intersection of systems, security, and code.</p><span class="hero-index">01 / INDEPENDENT WORK</span></div>
     </div>
-    <div class="hero-scroll" aria-hidden="true"><span>SCROLL TO EXPLORE</span><span>↓</span></div>
+    <a class="hero-scroll" href="#work" aria-label="Scroll to selected projects"><span>SCROLL TO PROJECTS</span><span aria-hidden="true">↓</span></a>
   </header>
 
   <section class="statement" aria-label="Our approach">
     <p class="section-num">01 — THE APPROACH</p>
-    <div><p class="statement-large">Curiosity is the starting point.<br><span>Craft is what makes it useful.</span></p><p class="statement-small">Experiments, practical tools, and honest documentation. Made to be understood, explored, and built upon.</p></div>
+    <div><p class="statement-large">From curiosity<br><span>to working code.</span></p><p class="statement-small">Experiments, practical tools, and honest documentation. Made to be understood, explored, and built upon.</p></div>
   </section>
 
   <section id="work" class="work" aria-labelledby="work-heading">
@@ -37,7 +37,7 @@
                 {{ else if and .Params.media (eq .Params.mediaType "video") }}
                   <video controls playsinline preload="metadata" {{ with .Params.poster }}poster="{{ . | relURL }}"{{ end }}><source src="{{ .Params.media | relURL }}" type="video/mp4">Your browser does not support video.</video>
                 {{ else }}
-                  <div class="visual-placeholder" aria-hidden="true"><span class="visual-cross">+</span><span class="visual-word">{{ .Params.visualLabel | default .Title }}</span><span class="visual-caption">ORIONINSIST / {{ printf "%02d" .Weight }}</span></div>
+                  <div class="visual-placeholder" aria-hidden="true"><span class="visual-cross">+</span><span class="visual-word">{{ .Params.visualLabel | default .Title }}</span><span class="visual-caption">orioninsist / {{ printf "%02d" .Weight }}</span></div>
                 {{ end }}
               </div>
             </div>
@@ -47,8 +47,8 @@
     {{ end }}
   </section>
 
-  <section class="manifesto"><p class="section-num">03 — AN OPEN PROCESS</p><p>Make things.<br>Break assumptions.<br><em>Share what works.</em></p></section>
+  <section class="manifesto"><p class="section-num">03 — AN OPEN PROCESS</p><p>Build. Test.<br><em>Share.</em></p></section>
 
-  <footer class="footer"><p class="section-num">04 — THE NEXT CONVERSATION</p><div class="footer-main"><h2>Let's build<br><em>something.</em></h2><p>Good work begins with a good question.<br>Find the projects, follow the experiments, or say hello.</p></div><nav class="footer-links" aria-label="External links"><a href="https://github.com/orioninsist" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/in/murat-kurkoglu/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a><a href="mailto:muratkurkoglu@gmail.com">EMAIL ↗</a></nav><div class="footer-end"><span>© {{ now.Year }} ORIONINSIST</span><span>BUILT WITH HUGO. MADE WITH INTENTION.</span><a href="#content">BACK TO TOP ↑</a></div></footer>
+  <footer class="footer"><p class="section-num">04 — THE NEXT CONVERSATION</p><div class="footer-main"><h2>Let's build<br><em>something.</em></h2><p>Good work begins with a good question.<br>Find the projects, follow the experiments, or say hello.</p></div><nav class="footer-links" aria-label="External links"><a href="https://github.com/orioninsist" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/murat-kurkoglu/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="mailto:muratkurkoglu@gmail.com">Email ↗</a></nav><div class="footer-end"><span>© {{ now.Year }} orioninsist</span><span>BUILT WITH HUGO. MADE WITH INTENTION.</span><a href="#content">BACK TO TOP ↑</a></div></footer>
 </main>
 {{ end }}

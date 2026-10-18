@@ -1,6 +1,6 @@
 baseURL: "https://orioninsist.com/"
 languageCode: en-us
-title: "Orioninsist — Independent Engineering"
+title: "orioninsist — Independent Engineering"
 enableRobotsTXT: true
 disableKinds:
   - taxonomy
@@ -13,4 +13,4 @@ outputs:
   home:
     - HTML
 params:
-  description: "Cybersecurity, Linux, software engineering and practical automation. Independent projects by Orioninsist."
+  description: "Cybersecurity, Linux, software engineering and practical automation. Independent projects by orioninsist."
