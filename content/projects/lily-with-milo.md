@@ -2,7 +2,7 @@
 title: "Lily with Milo"
 description: "A dedicated AI-assisted Shorts channel, developed as its own visual storytelling project."
 weight: 1
-published: true
+showProject: true
 category: "AI VIDEO / YOUTUBE SHORTS"
 layout: "feature"
 mediaType: "none"

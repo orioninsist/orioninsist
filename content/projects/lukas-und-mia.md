@@ -2,7 +2,7 @@
 title: "Lukas und Mia"
 description: "An independent AI-assisted Shorts channel with its own identity and visual direction."
 weight: 3
-published: true
+showProject: true
 category: "AI VIDEO / YOUTUBE SHORTS"
 layout: "feature"
 mediaType: "none"

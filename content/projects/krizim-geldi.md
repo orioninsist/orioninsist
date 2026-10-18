@@ -2,7 +2,7 @@
 title: "Krizim Geldi"
 description: "A separate AI-assisted Shorts channel exploring short-form creative video production."
 weight: 2
-published: true
+showProject: true
 category: "AI VIDEO / YOUTUBE SHORTS"
 layout: "feature"
 mediaType: "none"

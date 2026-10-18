@@ -21,7 +21,7 @@
     <div class="section-heading"><p class="section-num">03 — PROJECTS</p><h2 id="work-heading">Ideas into <em>action.</em></h2><p>Explore what we’re working on.</p></div>
     {{ with site.GetPage "/projects" }}
       {{ range sort (.Resources.ByType "page") "Weight" }}
-        {{ if ne .Params.published false }}
+        {{ if ne .Params.showProject false }}
           {{ $variant := .Params.layout | default "feature" }}
           <article class="project project--{{ $variant }}" aria-labelledby="project-{{ .File.UniqueID }}">
             <div class="project-number">{{ printf "%02d" .Weight }} <span>— PROJECT</span></div>
