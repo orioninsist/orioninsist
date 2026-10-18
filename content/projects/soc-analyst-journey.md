@@ -1,7 +1,7 @@
 ---
 title: "SOC Analyst Journey"
 description: "Hands-on defensive security, reproducible labs, and the workflows behind practical security operations."
-weight: 1
+weight: 4
 published: true
 category: "CYBERSECURITY / HANDS-ON LABS"
 layout: "feature"
