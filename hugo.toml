@@ -1,5 +1,5 @@
 baseURL = 'https://orioninsist.com/'
-languageCode = 'en-us'
+locale = 'en-US'
 title = 'orioninsist — Practical. Simple. Useful.'
 enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term', 'RSS', 'section', '404']
