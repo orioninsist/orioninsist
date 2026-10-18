@@ -123,3 +123,17 @@ html,body{overflow-x:clip;overflow-y:visible}
 .profile-signature strong{font-size:21px;letter-spacing:-.035em}
 .profile-signature>div>span:last-child{font-size:13px}
 @media(max-width:550px){.profile-signature{gap:16px}.profile-signature img{width:72px;height:72px}.profile-signature strong{font-size:18px}}
+
+/* Latest Updates: live feed cards, black-and-white editorial layout. */
+.updates-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,48px);margin-top:52px}
+.updates-group{min-width:0;border-top:1px solid #000;padding-top:18px}
+.updates-group h3{font-size:11px;letter-spacing:.13em;font-weight:750;margin:0 0 26px}
+.update-item{display:flex;align-items:flex-start;gap:12px;padding:18px 0;border-top:1px solid #000;text-decoration:none}
+.update-item img{width:82px;height:65px;object-fit:cover;flex-shrink:0;filter:grayscale(100%)}
+.update-copy{flex:1;min-width:0;display:flex;flex-direction:column;gap:10px}
+.update-copy strong{font-size:clamp(14px,1.15vw,18px);line-height:1.35;overflow-wrap:anywhere}
+.update-copy small{font-size:11px;letter-spacing:.04em}
+.update-item:hover strong{text-decoration:underline;text-underline-offset:4px}
+.updates-empty{font-size:14px;line-height:1.5}
+@media(max-width:1100px){.updates-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:650px){.updates-grid{grid-template-columns:1fr}.update-item img{width:96px;height:70px}}

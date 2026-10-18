@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '17 7 * * *'
 
 permissions:
   contents: read
@@ -33,6 +35,8 @@ jobs:
           hugo version
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Fetch latest RSS posts and videos
+        run: python3 scripts/fetch_updates.py
       - name: Build single-page website
         run: hugo --minify
       - name: Verify one public HTML page

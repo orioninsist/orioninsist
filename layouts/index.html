@@ -8,12 +8,32 @@
     </div>
   </header>
 
-  <section id="approach" class="statement" aria-labelledby="approach-title">
-    <p class="section-num">02 — OUR APPROACH</p>
+  <section id="updates" class="statement updates" aria-labelledby="updates-title">
+    <p class="section-num">02 — LATEST UPDATES</p>
     <div>
-      <h2 id="approach-title" class="statement-large">Made for <em>everyday use.</em></h2>
-      <p class="statement-small">Small ideas. Practical solutions. Clear and useful content designed to fit into your day.</p>
-      <div class="format-tags" aria-label="Our content formats"><span>Productivity</span><span>Automation</span><span>Tips</span><span>Time</span></div>
+      <h2 id="updates-title" class="statement-large">Fresh from <em>the feed.</em></h2>
+      <p class="statement-small">Latest writing and videos from across our channels.</p>
+      <div class="updates-grid">
+        {{ range (slice "blog" "medium" "youtube") }}
+          {{ $source := . }}
+          {{ $label := cond (eq . "blog") "ORIONINSIST.ORG" (cond (eq . "medium") "MEDIUM" "LILY WITH MILO · YOUTUBE") }}
+          <div class="updates-group">
+            <h3>{{ $label }}</h3>
+            {{ $items := index site.Data.updates $source }}
+            {{ if $items }}
+              {{ range first 2 $items }}
+                <a class="update-item" href="{{ .url | safeURL }}" target="_blank" rel="noopener noreferrer">
+                  {{ with .image }}<img src="{{ . | safeURL }}" alt="" loading="lazy" decoding="async">{{ end }}
+                  <span class="update-copy"><strong>{{ .title }}</strong><small>{{ .date }}</small></span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              {{ end }}
+            {{ else }}
+              <p class="updates-empty">Latest posts will appear here when the feed is available.</p>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
     </div>
   </section>
 
