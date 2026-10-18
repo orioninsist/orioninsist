@@ -1,27 +1,21 @@
-{{- if lt hugo.Version "0.112.4" }}
-{{- errorf "=> hugo v0.112.4 or greater is required for hugo-PaperMod to build " }}
-{{- end -}}
-
-<!DOCTYPE html>
-<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
-
+<!doctype html>
+<html lang="{{ site.Language.LanguageCode | default "en" }}">
 <head>
-    {{- partial "head.html" . }}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f6f4">
+  <meta name="description" content="{{ site.Params.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.Title }}">
+  <meta property="og:description" content="{{ site.Params.description }}">
+  <meta property="og:url" content="{{ site.BaseURL }}">
+  <link rel="canonical" href="{{ site.BaseURL }}">
+  <title>{{ site.Title }}</title>
+  {{ $css := resources.Get "css/landing.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 </head>
-
-<body class="
-{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
-{{- print "list" -}}
-{{- end -}}
-{{- if eq site.Params.defaultTheme `dark` -}}
-{{- print " dark" }}
-{{- end -}}
-" id="top">
-    {{- partialCached "header.html" . .Page -}}
-    <main class="main">
-        {{- block "main" . }}{{ end }}
-    </main>
-    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  {{ block "main" . }}{{ end }}
 </body>
-
 </html>

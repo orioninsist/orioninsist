@@ -1,0 +1,26 @@
+name: Validate Hugo landing page
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Hugo extended
+        run: |
+          curl -fsSL -o /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.deb
+          sudo dpkg -i /tmp/hugo.deb
+      - name: Build preview only (never deploy)
+        run: hugo --minify --destination /tmp/orioninsist-preview
+      - name: Verify single-page output
+        run: |
+          test -s /tmp/orioninsist-preview/index.html
+          test "$(find /tmp/orioninsist-preview -name '*.html' | wc -l)" -eq 1
+          grep -q 'SOC Analyst Journey' /tmp/orioninsist-preview/index.html
