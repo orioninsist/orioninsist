@@ -9,7 +9,7 @@
   </header>
 
   <section id="updates" class="statement updates" aria-labelledby="updates-title">
-    <p class="section-num">02 — LATEST UPDATES</p>
+    <p class="section-num">LATEST UPDATES</p>
     <div>
       <h2 id="updates-title" class="statement-large">Fresh from <em>the feed.</em></h2>
       <p class="statement-small">Latest writing and videos from across our channels.</p>
@@ -38,7 +38,7 @@
   </section>
 
   <section id="work" class="work" aria-labelledby="work-heading">
-    <div class="section-heading"><p class="section-num">03 — PROJECTS</p><h2 id="work-heading">Ideas into <em>action.</em></h2><p>Explore what we’re working on.</p></div>
+    <div class="section-heading"><p class="section-num">PROJECTS</p><h2 id="work-heading">Ideas into <em>action.</em></h2><p>Explore what we’re working on.</p></div>
     {{ with site.GetPage "/projects" }}
       {{ range sort (.Resources.ByType "page") "Weight" }}
         {{ if ne .Params.showProject false }}
@@ -70,7 +70,7 @@
   </section>
 
   <footer class="footer" id="connect">
-    <p class="section-num">04 — STAY CONNECTED</p>
+    <p class="section-num">STAY CONNECTED</p>
     <div class="footer-main">
       <h2>Keep <em>exploring.</em></h2>
       <p>More ideas, projects, and updates across our channels.</p>
