@@ -31,7 +31,7 @@
                 <h3 id="project-{{ .File.UniqueID }}">{{ .Title }}</h3>
                 {{ with .Description }}<p class="project-description">{{ . }}</p>{{ end }}
                 {{ with .Content }}<div class="project-body">{{ . }}</div>{{ end }}
-                {{ with .Params.externalURL }}<a class="project-link" href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">{{ if in (.Params.externalURL | default "") "youtube.com" }}Visit YouTube channel{{ else }}Explore the project{{ end }} <span aria-hidden="true">↗</span></a>{{ end }}
+                {{ with .Params.externalURL }}<a class="project-link" href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">{{ if in . "youtube.com" }}Visit YouTube channel{{ else }}Explore the project{{ end }} <span aria-hidden="true">↗</span></a>{{ end }}
               </div>
               <a class="project-visual" href="{{ .Params.externalURL | safeURL }}" target="_blank" rel="noopener noreferrer" aria-label="Open {{ .Title }} on YouTube">
                 {{ if and .Params.media (eq .Params.mediaType "image") }}
