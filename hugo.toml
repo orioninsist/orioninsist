@@ -8,4 +8,7 @@ disableKinds = ['taxonomy', 'term', 'RSS', 'section', '404']
   home = ['HTML']
 
 [params]
+  # GA4 Measurement ID (G-XXXXXXXXXX), not the numeric GA4 Property ID (443975841).
+  # Add the Measurement ID from GA4 > Admin > Data streams > Web.
+  googleAnalyticsID = ""
   description = "orioninsist creates practical digital content and projects across productivity, automation, tips, and time. Follow the sun's light."
