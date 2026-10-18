@@ -1,6 +1,6 @@
 ---
 title: "Lukas und Mia"
-description: "An independent AI-assisted YouTube Shorts channel, with visuals created using Gemini and short-form videos produced with Google Veo 3.1."
+description: "An independent AI-assisted Shorts channel with its own identity and visual direction."
 weight: 3
 published: true
 category: "AI VIDEO / YOUTUBE SHORTS"
@@ -10,6 +10,6 @@ visualLabel: "LUKAS / MIA"
 externalURL: "https://www.youtube.com/@lukas_und_mia"
 ---
 
-A short-form video project exploring visual storytelling through AI-generated imagery and video.
+Visual stories produced with Gemini imagery and Google Veo 3.1, presented as a standalone channel.
 
 <!-- To add a cover image later: set mediaType: "image" and media: "projects/lukas-und-mia.webp" in the front matter, then upload the image to static/projects/lukas-und-mia.webp. -->
