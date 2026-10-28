@@ -20,12 +20,10 @@ My learning plan centers on security monitoring, log analysis, alert triage, net
 
 ## GitHub activity
 
+For live commit history, pull requests, and contribution activity, visit my [GitHub contributions](https://github.com/orioninsist?tab=overview) and [repositories](https://github.com/orioninsist?tab=repositories).
+
 <div align="center">
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=orioninsist&show_icons=true&include_all_commits=true&hide_rank=true&theme=transparent)](https://github.com/orioninsist)
-
 [![GitHub streak](https://streak-stats.demolab.com?user=orioninsist&theme=transparent)](https://github.com/orioninsist)
-
-[![Contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=orioninsist&theme=github-compact&hide_border=true)](https://github.com/orioninsist)
 
 </div>
