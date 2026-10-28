@@ -42,6 +42,18 @@ I primarily work in Linux and prefer terminal-friendly, maintainable workflows. 
 
 I aim to make projects understandable and reproducible, with clear setup instructions, realistic scope, and responsible security practices. Security experiments are performed only in authorized environments.
 
+## GitHub activity
+
+<div align="center">
+
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=orioninsist&show_icons=true&include_all_commits=true&hide_rank=true&theme=transparent)](https://github.com/orioninsist)
+
+[![GitHub streak](https://streak-stats.demolab.com?user=orioninsist&theme=transparent)](https://github.com/orioninsist)
+
+[![Contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=orioninsist&theme=github-compact&hide_border=true)](https://github.com/orioninsist)
+
+</div>
+
 ## Connect
 
 [Website](https://orioninsist.com/) · [LinkedIn](https://www.linkedin.com/in/murat-kurkoglu/) · [Medium](https://medium.com/@orioninsist) · [Substack](https://substack.com/@orioninsist) · [YouTube](https://www.youtube.com/c/orioninsist-official)
