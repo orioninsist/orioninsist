@@ -2,14 +2,13 @@
 
 # ORIONINSIST
 
-### Cybersecurity · Linux · Software Engineering · Practical Automation
+**Cybersecurity · Linux · Software Engineering · Automation**
 
-**Building, testing, and documenting useful technology.**
+Building practical tools, exploring defensive security, and documenting what works.
 
-[![Website](https://img.shields.io/badge/Website-orioninsist.org-0f766e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://orioninsist.org/)
-[![Hands--on Labs](https://img.shields.io/badge/SOC-Labs%20%26%20Code-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orioninsist/soc-analyst-journey)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/murat-kurkoglu/)
-[![Medium](https://img.shields.io/badge/Medium-Writing-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@orioninsist)
+[![Website](https://img.shields.io/badge/Website-orioninsist.com-0F766E?style=flat-square&logo=googlechrome&logoColor=white)](https://orioninsist.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murat-kurkoglu/)
+[![Medium](https://img.shields.io/badge/Medium-Articles-242424?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@orioninsist)
 
 </div>
 
@@ -17,68 +16,35 @@
 
 ## About
 
-I'm **Murat Kurkoglu**, founder of **Orioninsist**. I have a background in computer engineering and economics, and I build and write about cybersecurity, Linux, practical software, and automation.
+I'm **Murat Kurkoglu**, the person behind **Orioninsist**. With a background in computer engineering and economics, I explore cybersecurity, Linux, software development, and automation through hands-on projects and technical writing.
 
-My current learning and portfolio focus is **defensive security and the Junior SOC Analyst (L1) path**. I value reproducible experiments, clear documentation, responsible security practice, and real working code over inflated skill lists.
+My current emphasis is **defensive security and SOC analyst fundamentals**: understanding systems, building useful scripts, testing ideas, and communicating findings clearly. I favor reproducible work and honest documentation over long lists of unverified skills.
 
-### Explore Orioninsist
+## Selected work
 
-| Destination | What you'll find |
+| Project | Description |
 | --- | --- |
-| **[orioninsist.org](https://orioninsist.org/)** | The main technical website, articles, practical guides, and project references |
-| **[Hands-on SOC Labs & Code](https://github.com/orioninsist/soc-analyst-journey)** | Small working Python/Bash tools, reproducible labs, and verified experiments |
-| **[Hugo Blog Source](https://github.com/orioninsist/orioninsist.github.io)** | The Markdown-powered source for my existing technical blog |
-| **[All GitHub repositories](https://github.com/orioninsist?tab=repositories)** | Projects and experiments across my GitHub account |
+| **[SOC Analyst Journey](https://github.com/orioninsist/soc-analyst-journey)** | Hands-on security learning, small Python/Bash tools, and documented lab experiments. |
+| **[Orioninsist](https://orioninsist.com/)** | My technical website and writing on security, Linux, development, and automation. |
+| **[Explore repositories](https://github.com/orioninsist?tab=repositories)** | Other projects, prototypes, and ongoing experiments. |
 
-## Featured work
+## Tools & interests
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Security:** Defensive security, SOC fundamentals, networking, security labs  
+**Engineering:** Python, Bash, Linux, Git, Docker, automation  
+**Publishing:** Hugo, Markdown, technical documentation
 
-### 🛡️ SOC Analyst Journey
-**Hands-on cybersecurity learning**
+I primarily work in Linux and prefer terminal-friendly, maintainable workflows. Tools are a means to solve problems—not a substitute for evidence of working results.
 
-A code-first workspace for small, verified security labs, scripts, and experiments. Longer-form learning notes live on the blog.
+## Approach
 
-[Open repository →](https://github.com/orioninsist/soc-analyst-journey)
+**Learn → Build → Test → Document → Improve**
 
-</td>
-<td width="50%" valign="top">
+I aim to make projects understandable and reproducible, with clear setup instructions, realistic scope, and responsible security practices. Security experiments are performed only in authorized environments.
 
-### 🌐 Orioninsist Technical Blog
-**Hugo-powered website**
+## Connect
 
-The home for cybersecurity, Linux, development, and automation writing, with Markdown content managed in a separate repository.
-
-[Visit website →](https://orioninsist.org/) · [View source →](https://github.com/orioninsist/orioninsist.github.io)
-
-</td>
-</tr>
-</table>
-
-> **Standalone projects:** Larger, independently usable and tested tools will receive their own repositories when warranted, and the best of them will be featured here. Not every small script needs a separate repository.
-
-## Focus areas
-
-`Defensive Security` · `SOC Fundamentals` · `Linux` · `Networking` · `Python` · `Bash` · `Docker` · `Git` · `Hugo` · `Automation`
-
-**Working environment:** Fedora Linux, terminal-first workflows, Kitty, Bash, Neovim / VS Code, Docker; virtualized security labs when needed.
-
-## How I work
-
-**Learn → Build → Test → Document → Share → Improve**
-
-- **Code and test artifacts:** [soc-analyst-journey](https://github.com/orioninsist/soc-analyst-journey)
-- **Technical notes and articles:** [orioninsist.org](https://orioninsist.org/)
-- **Independent software projects:** dedicated GitHub repositories as they mature
-- **Career-facing highlights:** selected projects on this profile
-
-I publish only safe, authorized examples and never intentionally share credentials, private keys, sensitive logs, or unauthorized data.
-
-## Find me online
-
-[Website](https://orioninsist.org/) · [LinkedIn](https://linkedin.com/in/murat-kurkoglu/) · [YouTube](https://www.youtube.com/c/orioninsist-official) · [Medium](https://medium.com/@orioninsist) · [GitHub repositories](https://github.com/orioninsist?tab=repositories)
+[Website](https://orioninsist.com/) · [LinkedIn](https://www.linkedin.com/in/murat-kurkoglu/) · [Medium](https://medium.com/@orioninsist) · [Substack](https://substack.com/@orioninsist) · [YouTube](https://www.youtube.com/c/orioninsist-official)
 
 ---
 
